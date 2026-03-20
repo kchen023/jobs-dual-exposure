@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>US Job Market Visualizer</title>
+<title>US Job Market Visualizer - Replication + Robot Exposure Dimension</title>
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-  --bg: #0a0a0f;
-  --bg2: #12121a;
-  --fg: #e0e0e8;
-  --fg2: #888894;
+  --bg: #ffffff;
+  --bg2: #f5f5f7;
+  --fg: #1d1d1f;
+  --fg2: #6e6e73;
 }
 
 body {
@@ -71,8 +71,8 @@ body {
 .intro summary:hover { color: var(--fg); }
 .intro .prompt-box {
   margin-top: 8px;
-  background: rgba(0,0,0,0.3);
-  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(0,0,0,0.03);
+  border: 1px solid rgba(0,0,0,0.1);
   border-radius: 6px;
   padding: 12px 16px;
   font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
@@ -130,7 +130,7 @@ body {
 .hbar-chart { display: flex; flex-direction: column; gap: 3px; }
 .hbar-row { display: flex; align-items: center; gap: 6px; font-size: 12px; }
 .hbar-label { width: 72px; flex-shrink: 0; color: var(--fg2); font-size: 11px; text-align: right; }
-.hbar-track { flex: 1; height: 12px; background: rgba(255,255,255,0.04); border-radius: 2px; overflow: hidden; min-width: 36px; }
+.hbar-track { flex: 1; height: 12px; background: rgba(0,0,0,0.04); border-radius: 2px; overflow: hidden; min-width: 36px; }
 .hbar-fill { height: 100%; border-radius: 2px; }
 .hbar-val { width: 30px; flex-shrink: 0; font-size: 11px; color: var(--fg); text-align: right; }
 
@@ -150,7 +150,7 @@ body {
   padding: 6px 14px;
   font-size: 12px;
   font-weight: 500;
-  border: 1px solid rgba(255,255,255,0.1);
+  border: 1px solid rgba(0,0,0,0.1);
   border-radius: 4px;
   background: transparent;
   color: var(--fg2);
@@ -158,12 +158,12 @@ body {
   transition: all 0.15s;
 }
 .color-toggle button.active {
-  background: rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.06);
   color: var(--fg);
-  border-color: rgba(255,255,255,0.2);
+  border-color: rgba(0,0,0,0.2);
 }
 .color-toggle button:hover:not(.active) {
-  background: rgba(255,255,255,0.04);
+  background: rgba(0,0,0,0.03);
 }
 
 .gradient-legend {
@@ -183,8 +183,8 @@ canvas#canvas {
 #tooltip {
   position: fixed;
   pointer-events: none;
-  background: var(--bg2);
-  border: 1px solid rgba(255,255,255,0.12);
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.12);
   border-radius: 8px;
   padding: 12px 16px;
   font-size: 13px;
@@ -193,15 +193,15 @@ canvas#canvas {
   opacity: 0;
   transition: opacity 0.12s;
   z-index: 20;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
 }
 #tooltip.visible { opacity: 1; }
-#tooltip .tt-title { font-weight: 600; font-size: 14px; margin-bottom: 6px; color: #fff; }
+#tooltip .tt-title { font-weight: 600; font-size: 14px; margin-bottom: 6px; color: #1d1d1f; }
 #tooltip .tt-exposure { font-size: 12px; margin-bottom: 8px; }
 #tooltip .tt-stats { display: grid; grid-template-columns: auto auto; gap: 2px 12px; font-size: 12px; }
 #tooltip .tt-stats .label { color: var(--fg2); }
 #tooltip .tt-stats .value { color: var(--fg); text-align: right; }
-#tooltip .tt-rationale { font-size: 11px; color: var(--fg2); margin-top: 8px; line-height: 1.4; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 8px; }
+#tooltip .tt-rationale { font-size: 11px; color: var(--fg2); margin-top: 8px; line-height: 1.4; border-top: 1px solid rgba(0,0,0,0.08); padding-top: 8px; }
 </style>
 </head>
 <body>
@@ -209,7 +209,7 @@ canvas#canvas {
 <div id="wrapper">
 <div id="header">
   <div class="intro">
-    <h1>US Job Market Visualizer <a href="https://github.com/karpathy/jobs">GitHub</a></h1>
+    <h1>US Job Market Visualizer - Replication + Robot Exposure Dimension <a href="https://github.com/karpathy/jobs">GitHub</a></h1>
     <p>This is a research tool that visualizes <b>342 occupations</b> from the <a href="https://www.bls.gov/ooh/">Bureau of Labor Statistics Occupational Outlook Handbook</a>, covering <b>143M jobs</b> across the US economy. Each rectangle's <b>area</b> is proportional to total employment. <b>Color</b> shows the selected metric &mdash; toggle between BLS projected growth outlook, median pay, education requirements, and AI exposure. Click any tile to view its full BLS page. This is not a report, a paper, or a serious economic publication &mdash; it is a development tool for exploring BLS data visually.</p>
     <p><b>Dual-dimension exposure:</b> This version includes two LLM-scored layers. <b>Digital AI Exposure</b> (original, by Gemini Flash) estimates how much current AI will reshape each occupation. <b>Robot Exposure</b> (added layer, by Claude) estimates how much humanoid robots could physically replace each occupation within 10 years. Toggle between them to see how different automation types affect different jobs. &mdash; it estimates how much current AI (which is primarily digital) will reshape each occupation. But you could write a different prompt for any question &mdash; e.g. exposure to humanoid robotics, offshoring risk, climate impact &mdash; and re-run the pipeline to get a different coloring.</p>
     <details>
@@ -238,6 +238,39 @@ Use these anchors to calibrate your score:
 
 Respond with ONLY a JSON object in this exact format, no other text:
 {"exposure": &lt;0-10&gt;, "rationale": "&lt;2-3 sentences explaining the key factors&gt;"}</div>
+    </details>
+    <details>
+      <summary>View the Robot Exposure scoring prompt</summary>
+      <div class="prompt-box">You are an expert analyst evaluating how exposed different occupations are to replacement by humanoid robots. You will be given a detailed description of an occupation from the Bureau of Labor Statistics.
+
+Rate the occupation's overall Humanoid Robot Replacement Risk on a scale from 0 to 10.
+
+This measures: how much could general-purpose humanoid robots (e.g. Tesla Optimus, Figure 02, Boston Dynamics Atlas) replace the core physical tasks of this occupation within 10 years?
+
+The key evaluation axis is physical task automation, NOT digital/cognitive task automation. Focus on:
+- The controllability and predictability of the physical environment (factory > warehouse > indoor service > outdoor construction > unstructured wilderness)
+- The repetitiveness and standardization of physical tasks
+- The required level of fine motor dexterity
+- The need for real-time human interpersonal interaction
+
+Use these anchors to calibrate your score:
+
+- 0-1: Minimal risk. The work is entirely performed on a computer with no physical labor component. A humanoid robot provides zero advantage. Examples: software developer, data scientist, writer.
+
+- 2-3: Low risk. The work requires extremely high-precision manual skills or occurs in complex, unstructured physical environments that challenge current robot capabilities. Examples: surgeon, dentist, electrician, plumber.
+
+- 4-5: Moderate risk. A mix of physical and cognitive/social tasks. Some physical components could be assisted by robots, but interpersonal or judgment-heavy aspects remain human-centric. Examples: registered nurse, cook, retail salesperson.
+
+- 6-7: High risk. Repetitive physical work in structured environments. Robots can handle most core physical tasks, though some variability remains. Examples: warehouse stocker, mail carrier, security guard on patrol.
+
+- 8-9: Very high risk. Highly repetitive physical labor in controlled, predictable environments. The work involves standardized motions with minimal judgment. Examples: janitor (indoor cleaning), hand laborer/material mover, food processing worker.
+
+- 10: Maximum risk. Pure repetitive physical operation at a fixed workstation with completely predictable environment and zero judgment required. Examples: assembly line worker.
+
+Important: This dimension is complementary to, not overlapping with, AI Exposure. A software developer (AI Exposure 9/10) has Robot Exposure 0/10. A janitor (AI Exposure 1/10) has Robot Exposure 8/10.
+
+Respond with ONLY a JSON object in this exact format, no other text:
+{"score": &lt;0-10&gt;, "rationale": "&lt;2-3 sentences explaining the key physical task characteristics and environment controllability&gt;"}</div>
     </details>
     <p><b>Caveat on Digital AI Exposure scores:</b> These are rough LLM estimates, not rigorous predictions. A high score does not predict the job will disappear. Software developers score 9/10 because AI is transforming their work &mdash; but demand for software could easily <em>grow</em> as each developer becomes more productive. The score does not account for demand elasticity, latent demand, regulatory barriers, or social preferences for human workers. Many high-exposure jobs will be reshaped, not replaced.</p>
   </div>
@@ -480,7 +513,7 @@ function layout() {
 
 function draw() {
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-  ctx.fillStyle = "#0a0a0f";
+  ctx.fillStyle = "#ffffff";
   ctx.fillRect(0, 0, canvas.width / dpr, canvas.height / dpr);
   for (const r of rects) {
     const isHovered = r === hovered;
@@ -488,17 +521,17 @@ function draw() {
     if (rw <= 0 || rh <= 0) continue;
     ctx.fillStyle = tileColorCSS(r, isHovered ? 0.8 : 0.5);
     ctx.fillRect(rx, ry, rw, rh);
-    if (isHovered) { ctx.strokeStyle = "#fff"; ctx.lineWidth = 2; ctx.strokeRect(rx, ry, rw, rh); }
+    if (isHovered) { ctx.strokeStyle = "#333"; ctx.lineWidth = 2; ctx.strokeRect(rx, ry, rw, rh); }
     if (rw > 50 && rh > 18) {
       ctx.save(); ctx.beginPath(); ctx.rect(rx + 4, ry + 2, rw - 8, rh - 4); ctx.clip();
       const fontSize = Math.min(13, Math.max(9, Math.min(rw / 10, rh / 3)));
       ctx.font = `500 ${fontSize}px -apple-system, system-ui, sans-serif`;
-      ctx.fillStyle = isHovered ? "#fff" : "rgba(255,255,255,0.85)";
+      ctx.fillStyle = isHovered ? "#111" : "rgba(0,0,0,0.8)";
       ctx.textBaseline = "top";
       ctx.fillText(r.title, rx + 5, ry + 4);
       if (rh > 34 && rw > 60) {
         ctx.font = `400 ${Math.max(8, fontSize - 2)}px -apple-system, system-ui, sans-serif`;
-        ctx.fillStyle = "rgba(255,255,255,0.5)";
+        ctx.fillStyle = "rgba(0,0,0,0.5)";
         ctx.fillText(tileSubInfo(r), rx + 5, ry + 4 + fontSize + 2);
       }
       ctx.restore();
@@ -871,14 +904,14 @@ function updateRobotStats(totalJobs) {
   let wS = 0, wC = 0;
   for (const d of data) { if (d.robot_exposure != null && d.jobs) { wS += d.robot_exposure * d.jobs; wC += d.jobs; } }
   const avg = wC > 0 ? wS / wC : 0;
-  document.getElementById("block2").innerHTML = `<h3>Avg. robot exposure</h3>
+  document.getElementById("block2").innerHTML = `<h3>Avg. exposure</h3>
     <div class="stat-big"><span style="color:${robotColor(avg, 1)}">${avg.toFixed(1)}</span></div>
     <div class="stat-label">job-weighted, 0\u201310</div>`;
 
   const histogram = new Array(11).fill(0);
   for (const d of data) { if (d.robot_exposure != null && d.jobs) histogram[d.robot_exposure] += d.jobs; }
   const maxH = Math.max(...histogram);
-  document.getElementById("block3").innerHTML = `<h3>Jobs by robot exposure</h3>
+  document.getElementById("block3").innerHTML = `<h3>Jobs by exposure</h3>
     <div class="histogram">${histogram.map((c, i) => `<div class="bar" style="height:${Math.max(2, maxH > 0 ? c / maxH * 100 : 0)}%;background:${robotColor(i, 0.7)}"></div>`).join("")}</div>
     <div class="hist-labels"><span>0</span><span>5</span><span>10</span></div>`;
 
@@ -894,15 +927,15 @@ function updateRobotStats(totalJobs) {
     for (const d of data) { if (d.robot_exposure != null && d.jobs && d.robot_exposure >= t.lo && d.robot_exposure <= t.hi) jobs += d.jobs; }
     return { ...t, jobs, color: robotColor(t.mid, 1) };
   });
-  document.getElementById("block4").innerHTML = `<h3>Robot exposure tiers</h3><div class="tier-bar">${renderTiers(tiers, totalJobs)}</div>`;
+  document.getElementById("block4").innerHTML = `<h3>Exposure tiers</h3><div class="tier-bar">${renderTiers(tiers, totalJobs)}</div>`;
 
   const byPay = weightedAvgByGroups(PAY_BANDS, (d, g) => d.pay != null && d.pay >= g.min && d.pay < g.max, d => d.robot_exposure);
-  document.getElementById("block5").innerHTML = `<h3>Robot exp. by pay</h3><div class="hbar-chart">${renderHbars(byPay.map(g => ({
+  document.getElementById("block5").innerHTML = `<h3>Exposure by pay</h3><div class="hbar-chart">${renderHbars(byPay.map(g => ({
     label: g.label, val: g.avg.toFixed(1), pct: g.avg / 10 * 100, color: robotColor(g.avg, 0.8)
   })))}</div>`;
 
   const byEdu = weightedAvgByGroups(EDU_GROUPS, (d, g) => g.match.includes(d.education), d => d.robot_exposure);
-  document.getElementById("block6").innerHTML = `<h3>Robot exp. by education</h3><div class="hbar-chart">${renderHbars(byEdu.map(g => ({
+  document.getElementById("block6").innerHTML = `<h3>Exposure by education</h3><div class="hbar-chart">${renderHbars(byEdu.map(g => ({
     label: g.label, val: g.avg.toFixed(1), pct: g.avg / 10 * 100, color: robotColor(g.avg, 0.8)
   })))}</div>`;
 
@@ -912,15 +945,15 @@ function updateRobotStats(totalJobs) {
     { label: "AI 7\u201310", lo: 7, hi: 10 },
   ];
   const byAI = weightedAvgByGroups(aiTiers, (d, g) => d.exposure != null && d.exposure >= g.lo && d.exposure <= g.hi, d => d.robot_exposure);
-  document.getElementById("block7").innerHTML = `<h3>Robot exp. by AI exp.</h3><div class="hbar-chart">${renderHbars(byAI.map(g => ({
+  document.getElementById("block7").innerHTML = `<h3>Exposure by AI tier</h3><div class="hbar-chart">${renderHbars(byAI.map(g => ({
     label: g.label, val: g.avg.toFixed(1), pct: g.avg / 10 * 100, color: robotColor(g.avg, 0.8)
   })))}</div>`;
 
   let wagesExposed = 0;
   for (const d of data) { if (d.robot_exposure != null && d.robot_exposure >= 5 && d.jobs && d.pay) wagesExposed += d.jobs * d.pay; }
-  document.getElementById("block8").innerHTML = `<h3>Wages at risk</h3>
+  document.getElementById("block8").innerHTML = `<h3>Wages exposed</h3>
     <div class="stat-big" style="color:${robotColor(7, 1)}">$${(wagesExposed / 1e12).toFixed(1)}T</div>
-    <div class="stat-label">annual, robot score 5+</div>`;
+    <div class="stat-label">annual, in jobs scoring 5+</div>`;
 }
 
 // ── Events ─────────────────────────────────────────────────────────────
