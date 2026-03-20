@@ -1,4 +1,4 @@
-# US Job Market Visualizer — Replication + Robot Exposure Dimension
+# AI & Robotics: A 2D Exposure Visualizer (Extended from Karpathy/Jobs)
 
 **Live site:** [kchen023.github.io/jobs-dual-exposure](https://kchen023.github.io/jobs-dual-exposure/)
 
@@ -8,7 +8,7 @@ An interactive treemap visualizing **342 US occupations** (143M jobs) from the B
 
 This project replicates and extends [Andrej Karpathy's Jobs Visualizer](https://karpathy.ai/jobs/) ([source](https://github.com/karpathy/jobs)). The original project scores occupations on a single **Digital AI Exposure** axis. This version adds a second axis: **Humanoid Robot Replacement Risk**.
 
-### Two dimensions of automation
+### Two dimensions of automation - impact on occupations
 
 | Dimension | Scored by | Measures |
 |-----------|-----------|----------|
