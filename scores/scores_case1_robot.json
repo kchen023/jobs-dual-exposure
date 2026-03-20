@@ -1,0 +1,2054 @@
+[
+  {
+    "slug": "accountants-and-auditors",
+    "title": "Accountants and auditors",
+    "exposure": 0,
+    "rationale": "Accounting and auditing are performed entirely through computer systems. No physical tasks are part of the core work."
+  },
+  {
+    "slug": "actors",
+    "title": "Actors",
+    "exposure": 1,
+    "rationale": "Acting involves physical performance and emotional expression. Conveying authentic human emotion is beyond current robot capabilities."
+  },
+  {
+    "slug": "actuaries",
+    "title": "Actuaries",
+    "exposure": 0,
+    "rationale": "Actuarial work involves statistical modeling and risk analysis entirely through computer software. No physical tasks."
+  },
+  {
+    "slug": "administrative-services-and-facilities-managers",
+    "title": "Administrative services and facilities managers",
+    "exposure": 2,
+    "rationale": "Involves physical inspections of buildings. Professional judgment about facility conditions requires human expertise."
+  },
+  {
+    "slug": "adult-basic-and-secondary-education-and-esl-teachers",
+    "title": "Adult basic and secondary education and ESL teachers",
+    "exposure": 1,
+    "rationale": "Teaching involves instruction and individualized support requiring adaptive interpersonal communication. Not physical labor."
+  },
+  {
+    "slug": "advertising-promotions-and-marketing-managers",
+    "title": "Advertising, promotions, and marketing managers",
+    "exposure": 0,
+    "rationale": "Marketing management involves strategy development, data analysis, and content creation on computers. No physical tasks a robot could perform."
+  },
+  {
+    "slug": "advertising-sales-agents",
+    "title": "Advertising sales agents",
+    "exposure": 0,
+    "rationale": "Involves prospecting clients and presenting media packages. No physical tasks required."
+  },
+  {
+    "slug": "aerospace-engineering-and-operations-technologists-and-technicians",
+    "title": "Aerospace engineering and operations technologists and technicians",
+    "exposure": 3,
+    "rationale": "Build test facilities and install instruments in structured aerospace environments. Precision and safety limit displacement."
+  },
+  {
+    "slug": "aerospace-engineers",
+    "title": "Aerospace engineers",
+    "exposure": 1,
+    "rationale": "Predominantly digital—simulation and CAD design. Physical testing requires specialized expert judgment."
+  },
+  {
+    "slug": "agricultural-and-food-science-technicians",
+    "title": "Agricultural and food science technicians",
+    "exposure": 4,
+    "rationale": "Structured laboratory procedures and some field sampling. Controlled environments are more amenable to robots."
+  },
+  {
+    "slug": "agricultural-and-food-scientists",
+    "title": "Agricultural and food scientists",
+    "exposure": 3,
+    "rationale": "Split between field sampling in outdoor environments and laboratory analysis. Lab tasks follow more structured protocols."
+  },
+  {
+    "slug": "agricultural-engineers",
+    "title": "Agricultural engineers",
+    "exposure": 3,
+    "rationale": "Combines digital design with physical field testing. Field conditions vary significantly with seasons and weather."
+  },
+  {
+    "slug": "agricultural-workers",
+    "title": "Agricultural workers",
+    "exposure": 4,
+    "rationale": "Physical labor in outdoor environments with variability in crop type and terrain. Specialized robots exist for specific crops."
+  },
+  {
+    "slug": "air-traffic-controllers",
+    "title": "Air traffic controllers",
+    "exposure": 0,
+    "rationale": "Involves monitoring radar screens and issuing voice instructions—entirely a cognitive and communicative function."
+  },
+  {
+    "slug": "aircraft-and-avionics-equipment-mechanics-and-technicians",
+    "title": "Aircraft and avionics equipment mechanics and technicians",
+    "exposure": 2,
+    "rationale": "Precise inspection and repair under strict FAA regulations. Safety-critical nature and diversity of aircraft create barriers."
+  },
+  {
+    "slug": "airline-and-commercial-pilots",
+    "title": "Airline and commercial pilots",
+    "exposure": 1,
+    "rationale": "Advanced autopilot handles routine flight, but emergency management and sensory judgment in adverse conditions require human pilots."
+  },
+  {
+    "slug": "animal-care-and-service-workers",
+    "title": "Animal care and service workers",
+    "exposure": 2,
+    "rationale": "Physical handling of diverse species with unpredictable behavior. Human-animal bond is central to effective care."
+  },
+  {
+    "slug": "announcers-and-djs",
+    "title": "Announcers and DJs",
+    "exposure": 1,
+    "rationale": "Broadcasting involves operating audio equipment and delivering content. Live DJ work requires real-time crowd engagement robots cannot replicate."
+  },
+  {
+    "slug": "anthropologists-and-archeologists",
+    "title": "Anthropologists and archeologists",
+    "exposure": 2,
+    "rationale": "Physical excavation in varied field sites. Expert judgment for artifact identification is beyond robot capabilities."
+  },
+  {
+    "slug": "arbitrators-mediators-and-conciliators",
+    "title": "Arbitrators, mediators, and conciliators",
+    "exposure": 0,
+    "rationale": "Dispute resolution requires active listening and facilitation of human dialogue. No physical tasks."
+  },
+  {
+    "slug": "architects",
+    "title": "Architects",
+    "exposure": 1,
+    "rationale": "Architecture is predominantly digital—CAD and BIM modeling. Site visits require professional judgment, not physical labor."
+  },
+  {
+    "slug": "architectural-and-engineering-managers",
+    "title": "Architectural and engineering managers",
+    "exposure": 0,
+    "rationale": "This managerial role involves project planning and team leadership through digital tools. No physical labor required."
+  },
+  {
+    "slug": "archivists-curators-and-museum-workers",
+    "title": "Archivists, curators, and museum workers",
+    "exposure": 3,
+    "rationale": "Includes physical handling of delicate objects and cataloging in structured storage environments. Requires extreme care for irreplaceable artifacts."
+  },
+  {
+    "slug": "art-directors",
+    "title": "Art directors",
+    "exposure": 0,
+    "rationale": "Art direction involves creative decision-making and digital design review. No physical manipulation of materials is required for core duties."
+  },
+  {
+    "slug": "assemblers-and-fabricators",
+    "title": "Assemblers and fabricators",
+    "exposure": 8,
+    "rationale": "Repetitive, standardized physical tasks in structured factory environments. Among the most amenable to humanoid robot replacement."
+  },
+  {
+    "slug": "athletes-and-sports-competitors",
+    "title": "Athletes and sports competitors",
+    "exposure": 0,
+    "rationale": "The human body IS the product. No automated system can replace human athletic competition that fans pay to watch."
+  },
+  {
+    "slug": "athletic-trainers",
+    "title": "Athletic trainers",
+    "exposure": 2,
+    "rationale": "Physical taping, bracing, and emergency response on sports fields. Dynamic environments require human clinical judgment."
+  },
+  {
+    "slug": "atmospheric-scientists-including-meteorologists",
+    "title": "Atmospheric scientists, including meteorologists",
+    "exposure": 1,
+    "rationale": "Predominantly computer-based involving data analysis and model runs. Some fieldwork involves deploying sensors in varied conditions."
+  },
+  {
+    "slug": "audiologists",
+    "title": "Audiologists",
+    "exposure": 2,
+    "rationale": "Physical clinical procedures requiring precision patient interaction. Interpersonal counseling limits displacement."
+  },
+  {
+    "slug": "automotive-body-and-glass-repairers",
+    "title": "Automotive body and glass repairers",
+    "exposure": 3,
+    "rationale": "Highly variable damage patterns requiring creative problem-solving. Structured paint booth operations have more robot potential."
+  },
+  {
+    "slug": "automotive-service-technicians-and-mechanics",
+    "title": "Automotive service technicians and mechanics",
+    "exposure": 3,
+    "rationale": "Diverse vehicle makes and failure modes create complex, unstructured physical challenges for robots."
+  },
+  {
+    "slug": "bakers",
+    "title": "Bakers",
+    "exposure": 5,
+    "rationale": "Repetitive physical tasks in structured bakery environments. Industrial baking is already automated; custom decorating is harder."
+  },
+  {
+    "slug": "barbers-hairstylists-and-cosmetologists",
+    "title": "Barbers, hairstylists, and cosmetologists",
+    "exposure": 2,
+    "rationale": "Extraordinary tactile precision on diverse hair types. Social and experiential nature limits displacement."
+  },
+  {
+    "slug": "bartenders",
+    "title": "Bartenders",
+    "exposure": 4,
+    "rationale": "Structured bar environments with repetitive drink preparation. Social hospitality limits full displacement."
+  },
+  {
+    "slug": "bill-and-account-collectors",
+    "title": "Bill and account collectors",
+    "exposure": 1,
+    "rationale": "The core of this occupation—phone calls, skip tracing, and computer-based data analysis—is entirely digital. Occasional field visits represent a small minority of the work."
+  },
+  {
+    "slug": "biochemists-and-biophysicists",
+    "title": "Biochemists and biophysicists",
+    "exposure": 2,
+    "rationale": "Split between digital research and physical laboratory work. Lab environments are structured but experiments involve complex biological systems."
+  },
+  {
+    "slug": "bioengineers-and-biomedical-engineers",
+    "title": "Bioengineers and biomedical engineers",
+    "exposure": 2,
+    "rationale": "Involves digital design combined with physical lab and clinical equipment work in diverse contexts."
+  },
+  {
+    "slug": "biological-technicians",
+    "title": "Biological technicians",
+    "exposure": 3,
+    "rationale": "Structured lab tasks—pipetting, sample preparation—follow standardized protocols. Recognizing anomalies requires human expertise."
+  },
+  {
+    "slug": "boilermakers",
+    "title": "Boilermakers",
+    "exposure": 3,
+    "rationale": "Fabricating and installing pressure vessels in confined spaces. Heavy welding and diverse site conditions limit displacement."
+  },
+  {
+    "slug": "bookkeeping-accounting-and-auditing-clerks",
+    "title": "Bookkeeping, accounting, and auditing clerks",
+    "exposure": 0,
+    "rationale": "All core tasks—data entry, ledger reconciliation, and financial record-keeping—are performed entirely on a computer. Physical presence is unnecessary for the core functions."
+  },
+  {
+    "slug": "broadcast-sound-and-video-technicians",
+    "title": "Broadcast, sound, and video technicians",
+    "exposure": 3,
+    "rationale": "Involves physical equipment setup—rigging lights, running cables—in structured studio environments. Repetitive tasks have robot applicability."
+  },
+  {
+    "slug": "budget-analysts",
+    "title": "Budget analysts",
+    "exposure": 0,
+    "rationale": "Budget analysis is entirely computer-based involving financial modeling, cost-benefit analysis, and report writing."
+  },
+  {
+    "slug": "bus-drivers",
+    "title": "Bus drivers",
+    "exposure": 5,
+    "rationale": "Fixed-route driving is automatable. Managing passenger behavior and assisting disabled persons require human presence."
+  },
+  {
+    "slug": "butchers",
+    "title": "Butchers",
+    "exposure": 5,
+    "rationale": "Repetitive cutting in structured cold-processing environments. Industrial processing is already automated; retail custom cuts are harder."
+  },
+  {
+    "slug": "calibration-technologists-and-technicians",
+    "title": "Calibration technologists and technicians",
+    "exposure": 4,
+    "rationale": "Adjust instruments in structured environments following defined procedures. Diverse instrument types moderate displacement."
+  },
+  {
+    "slug": "cardiovascular-technologists-and-technicians",
+    "title": "Cardiovascular technologists and technicians",
+    "exposure": 3,
+    "rationale": "Position patients and attach electrodes in structured clinical environments. Patient variability and emergency response limit displacement."
+  },
+  {
+    "slug": "career-and-technical-education-teachers",
+    "title": "Career and technical education teachers",
+    "exposure": 1,
+    "rationale": "Supervise hands-on training in workshops requiring physical demonstration and safety intervention."
+  },
+  {
+    "slug": "carpenters",
+    "title": "Carpenters",
+    "exposure": 3,
+    "rationale": "Diverse physical tasks in highly variable construction environments. Structured manufacturing has more robot potential."
+  },
+  {
+    "slug": "cartographers-and-photogrammetrists",
+    "title": "Cartographers and photogrammetrists",
+    "exposure": 2,
+    "rationale": "Majority involves processing satellite imagery and GIS data on computers. Some field data collection occurs in varied outdoor environments."
+  },
+  {
+    "slug": "cashiers",
+    "title": "Cashiers",
+    "exposure": 6,
+    "rationale": "Cashier work occurs in structured retail environments with standardized workflows—scanning items and processing payments at fixed stations amenable to robot operation."
+  },
+  {
+    "slug": "chefs-and-head-cooks",
+    "title": "Chefs and head cooks",
+    "exposure": 3,
+    "rationale": "Combines creative culinary judgment with physical kitchen management. Sensory capabilities beyond current robots."
+  },
+  {
+    "slug": "chemical-engineers",
+    "title": "Chemical engineers",
+    "exposure": 2,
+    "rationale": "Involves process design and monitoring in industrial plant environments with hazardous materials requiring safety knowledge."
+  },
+  {
+    "slug": "chemical-technicians",
+    "title": "Chemical technicians",
+    "exposure": 4,
+    "rationale": "Perform standardized laboratory procedures in structured environments. Many protocols are suitable for robotic automation."
+  },
+  {
+    "slug": "chemists-and-materials-scientists",
+    "title": "Chemists and materials scientists",
+    "exposure": 2,
+    "rationale": "Split between digital research and physical laboratory work. Experiments involve complex judgment and hazardous materials."
+  },
+  {
+    "slug": "childcare-workers",
+    "title": "Childcare workers",
+    "exposure": 1,
+    "rationale": "Constant physical supervision and safety management for young children. Nurturing human presence is fundamental."
+  },
+  {
+    "slug": "chiropractors",
+    "title": "Chiropractors",
+    "exposure": 2,
+    "rationale": "Precise manual adjustments requiring tactile assessment and real-time adaptation. Patient trust is essential."
+  },
+  {
+    "slug": "civil-engineering-technologists-and-technicians",
+    "title": "Civil engineering technologists and technicians",
+    "exposure": 3,
+    "rationale": "Perform field surveys, material testing, and inspections in diverse outdoor environments. Some structured testing could be assisted."
+  },
+  {
+    "slug": "civil-engineers",
+    "title": "Civil engineers",
+    "exposure": 1,
+    "rationale": "Involves digital design and analysis combined with physical site inspections in complex, hazardous environments."
+  },
+  {
+    "slug": "claims-adjusters-appraisers-examiners-and-investigators",
+    "title": "Claims adjusters, appraisers, examiners, and investigators",
+    "exposure": 2,
+    "rationale": "Primarily digital document review. Field investigators visit sites in varied, unstructured environments requiring professional judgment."
+  },
+  {
+    "slug": "clinical-laboratory-technologists-and-technicians",
+    "title": "Clinical laboratory technologists and technicians",
+    "exposure": 4,
+    "rationale": "Structured lab environments with defined protocols create meaningful robot applicability. Diversity of samples moderates risk."
+  },
+  {
+    "slug": "coaches-and-scouts",
+    "title": "Coaches and scouts",
+    "exposure": 1,
+    "rationale": "Physical instruction and motivational leadership in dynamic sports environments. Robots cannot provide athletic credibility."
+  },
+  {
+    "slug": "community-health-workers",
+    "title": "Community health workers",
+    "exposure": 1,
+    "rationale": "Health education and support in diverse community settings. Human cultural connection is the primary value."
+  },
+  {
+    "slug": "compensation-and-benefits-managers",
+    "title": "Compensation and benefits managers",
+    "exposure": 0,
+    "rationale": "Involves data analysis and strategic HR planning through digital tools. No physical tasks."
+  },
+  {
+    "slug": "compensation-benefits-and-job-analysis-specialists",
+    "title": "Compensation, benefits, and job analysis specialists",
+    "exposure": 0,
+    "rationale": "This role involves data analysis, benchmarking compensation, and drafting job descriptions entirely through computer systems."
+  },
+  {
+    "slug": "compliance-officers",
+    "title": "Compliance officers",
+    "exposure": 0,
+    "rationale": "Compliance work involves analyzing regulatory documents and auditing data on computer systems. No physical tasks are part of the core function."
+  },
+  {
+    "slug": "computer-and-information-research-scientists",
+    "title": "Computer and information research scientists",
+    "exposure": 0,
+    "rationale": "Research scientists in computing work at computers writing algorithms and analyzing experimental results. No manual labor is required."
+  },
+  {
+    "slug": "computer-and-information-systems-managers",
+    "title": "Computer and information systems managers",
+    "exposure": 0,
+    "rationale": "IT management involves strategic planning and technical oversight conducted digitally and through meetings. No physical tasks."
+  },
+  {
+    "slug": "computer-hardware-engineers",
+    "title": "Computer hardware engineers",
+    "exposure": 2,
+    "rationale": "Hardware engineering involves digital design work but also physical prototyping and circuit testing in structured lab environments."
+  },
+  {
+    "slug": "computer-network-architects",
+    "title": "Computer network architects",
+    "exposure": 1,
+    "rationale": "Network architecture design is primarily digital. Occasional physical hardware deployment represents a small fraction of the role."
+  },
+  {
+    "slug": "computer-programmers",
+    "title": "Computer programmers",
+    "exposure": 0,
+    "rationale": "Computer programming is performed entirely on computers through writing, testing, and debugging code. No physical presence is required."
+  },
+  {
+    "slug": "computer-support-specialists",
+    "title": "Computer support specialists",
+    "exposure": 2,
+    "rationale": "Many tasks are digital, but physical hardware setup, cable management, and on-site equipment replacement represent a meaningful portion in structured server rooms."
+  },
+  {
+    "slug": "computer-systems-analysts",
+    "title": "Computer systems analysts",
+    "exposure": 0,
+    "rationale": "Systems analysis involves designing and documenting technical systems entirely through digital tools. No physical manipulation required."
+  },
+  {
+    "slug": "concierges",
+    "title": "Concierges",
+    "exposure": 2,
+    "rationale": "Work at structured hotel lobbies. Basic tasks could be automated but luxury hospitality requires human warmth."
+  },
+  {
+    "slug": "conservation-scientists-and-foresters",
+    "title": "Conservation scientists and foresters",
+    "exposure": 2,
+    "rationale": "Physically demanding outdoor work—fire suppression, planting—in unpredictable natural environments."
+  },
+  {
+    "slug": "construction-and-building-inspectors",
+    "title": "Construction and building inspectors",
+    "exposure": 3,
+    "rationale": "Navigate diverse building environments performing physical inspections. Sites include tight spaces and hazardous conditions."
+  },
+  {
+    "slug": "construction-equipment-operators",
+    "title": "Construction equipment operators",
+    "exposure": 3,
+    "rationale": "Heavy equipment operation in dynamic outdoor sites. Variable terrain and real-time coordination create challenges."
+  },
+  {
+    "slug": "construction-laborers-and-helpers",
+    "title": "Construction laborers and helpers",
+    "exposure": 4,
+    "rationale": "Carrying materials in variable outdoor construction environments. Active sites are among the most unstructured for robots."
+  },
+  {
+    "slug": "construction-managers",
+    "title": "Construction managers",
+    "exposure": 1,
+    "rationale": "Involves physical site oversight in complex, hazardous construction environments. Requires professional judgment and authority."
+  },
+  {
+    "slug": "cooks",
+    "title": "Cooks",
+    "exposure": 5,
+    "rationale": "Institutional cooking is repetitive in structured kitchens. Fine dining requires creative judgment and sensory assessment."
+  },
+  {
+    "slug": "correctional-officers-and-bailiffs",
+    "title": "Correctional officers and bailiffs",
+    "exposure": 2,
+    "rationale": "Unpredictable and potentially violent institutional environments. Human authority and social intelligence are essential."
+  },
+  {
+    "slug": "cost-estimators",
+    "title": "Cost estimators",
+    "exposure": 1,
+    "rationale": "Core cost estimation involves analyzing blueprints on computers. Occasional site visits represent a small portion of the work."
+  },
+  {
+    "slug": "court-reporters-and-simultaneous-captioners",
+    "title": "Court reporters and simultaneous captioners",
+    "exposure": 1,
+    "rationale": "Court reporters operate stenographic machines in controlled courtroom environments. The physical footprint is minimal, and speech recognition software is the relevant competitor."
+  },
+  {
+    "slug": "craft-and-fine-artists",
+    "title": "Craft and fine artists",
+    "exposure": 2,
+    "rationale": "Involves physical manipulation of diverse materials requiring highly refined tactile judgment and creative expression."
+  },
+  {
+    "slug": "credit-counselors",
+    "title": "Credit counselors",
+    "exposure": 0,
+    "rationale": "Involves analyzing financial data and providing personalized guidance through interpersonal sessions. No physical tasks."
+  },
+  {
+    "slug": "customer-service-representatives",
+    "title": "Customer service representatives",
+    "exposure": 1,
+    "rationale": "The vast majority of this role is performed via phone, computer, or chat interface with no physical component. A humanoid robot adds negligible value over existing software for digital communication tasks."
+  },
+  {
+    "slug": "dancers-and-choreographers",
+    "title": "Dancers and choreographers",
+    "exposure": 1,
+    "rationale": "Dance is the human body as artistic instrument. Robots lack fluid, expressive movement and emotional authenticity."
+  },
+  {
+    "slug": "data-scientists",
+    "title": "Data scientists",
+    "exposure": 0,
+    "rationale": "Data science is a purely digital occupation involving coding, statistical modeling, and data pipeline work. The entire value chain exists in software and data."
+  },
+  {
+    "slug": "database-administrators-and-architects",
+    "title": "Database administrators and architects",
+    "exposure": 0,
+    "rationale": "Database work involves writing SQL, designing schemas, and monitoring system performance—all on computers. Physical presence is not required."
+  },
+  {
+    "slug": "delivery-truck-drivers-and-driversales-workers",
+    "title": "Delivery truck drivers and driver/sales workers",
+    "exposure": 4,
+    "rationale": "Driving is increasingly automatable. Physical last-mile delivery in diverse environments remains challenging."
+  },
+  {
+    "slug": "dental-and-ophthalmic-laboratory-technicians-and-medical-appliance-technicians",
+    "title": "Dental and ophthalmic laboratory technicians and medical appliance technicians",
+    "exposure": 4,
+    "rationale": "Fabricate dental prosthetics using structured manufacturing processes. Repetitive tasks have robot applicability; custom fitting moderates it."
+  },
+  {
+    "slug": "dental-assistants",
+    "title": "Dental assistants",
+    "exposure": 3,
+    "rationale": "Physical clinical tasks in structured dental operatories. Fine motor coordination and patient communication limit displacement."
+  },
+  {
+    "slug": "dental-hygienists",
+    "title": "Dental hygienists",
+    "exposure": 2,
+    "rationale": "Highly precise manual procedures in the confined oral cavity. Safety risks and patient management limit displacement."
+  },
+  {
+    "slug": "dentists",
+    "title": "Dentists",
+    "exposure": 2,
+    "rationale": "Extraordinarily precise manual procedures in confined oral cavity. Sub-millimeter accuracy and patient variability create barriers."
+  },
+  {
+    "slug": "desktop-publishers",
+    "title": "Desktop publishers",
+    "exposure": 0,
+    "rationale": "Desktop publishing involves layout design and formatting using computer software. All work is digital, requiring no physical presence."
+  },
+  {
+    "slug": "diagnostic-medical-sonographers",
+    "title": "Diagnostic medical sonographers",
+    "exposure": 3,
+    "rationale": "Requires precise transducer manipulation with real-time image quality adjustment. Structured clinical environment offers some applicability."
+  },
+  {
+    "slug": "diesel-service-technicians-and-mechanics",
+    "title": "Diesel service technicians and mechanics",
+    "exposure": 3,
+    "rationale": "Work on large, heavy vehicles with enormous variety of systems and failure modes."
+  },
+  {
+    "slug": "dietitians-and-nutritionists",
+    "title": "Dietitians and nutritionists",
+    "exposure": 0,
+    "rationale": "Involves nutrition assessment and counseling through clinical consultations. No meaningful physical tasks."
+  },
+  {
+    "slug": "drafters",
+    "title": "Drafters",
+    "exposure": 0,
+    "rationale": "Drafters convert engineering concepts into CAD and BIM models using specialized computer software. All core work is digital."
+  },
+  {
+    "slug": "drywall-installers-ceiling-tile-installers-and-tapers",
+    "title": "Drywall installers, ceiling tile installers, and tapers",
+    "exposure": 4,
+    "rationale": "Repetitive indoor tasks—hanging sheets, mudding, taping. Ceiling work at height and finishing requiring aesthetic judgment moderate displacement."
+  },
+  {
+    "slug": "economists",
+    "title": "Economists",
+    "exposure": 0,
+    "rationale": "Economists conduct research, analyze data, and write reports entirely through digital tools. No physical labor is involved."
+  },
+  {
+    "slug": "editors",
+    "title": "Editors",
+    "exposure": 0,
+    "rationale": "Editing involves reviewing and revising text using computers, requiring no physical labor. All core tasks exist entirely in the digital domain."
+  },
+  {
+    "slug": "electrical-and-electronic-engineering-technologists-and-technicians",
+    "title": "Electrical and electronic engineering technologists and technicians",
+    "exposure": 3,
+    "rationale": "Perform soldering, assembly, and testing in structured lab environments. Fine precision in electronics limits broader displacement."
+  },
+  {
+    "slug": "electrical-and-electronics-engineers",
+    "title": "Electrical and electronics engineers",
+    "exposure": 1,
+    "rationale": "Primarily digital design and documentation. Physical lab testing requires specialized judgment."
+  },
+  {
+    "slug": "electrical-and-electronics-installers-and-repairers",
+    "title": "Electrical and electronics installers and repairers",
+    "exposure": 3,
+    "rationale": "Diverse environments and fine motor precision for delicate components create challenges for robots."
+  },
+  {
+    "slug": "electrical-power-line-installers-and-repairers",
+    "title": "Electrical power-line installers and repairers",
+    "exposure": 2,
+    "rationale": "Extreme physical demands at heights in all weather conditions. Safety-critical high-voltage work creates major barriers."
+  },
+  {
+    "slug": "electricians",
+    "title": "Electricians",
+    "exposure": 2,
+    "rationale": "Complex, unstructured environments—crawl spaces, attics, construction sites. Extreme diversity of systems requires adaptive intelligence."
+  },
+  {
+    "slug": "electro-mechanical-and-mechatronics-technologists-and-technicians",
+    "title": "Electro-mechanical and mechatronics technologists and technicians",
+    "exposure": 4,
+    "rationale": "Assembly, testing, and repair of robotic systems in structured environments. Complexity of troubleshooting limits displacement."
+  },
+  {
+    "slug": "elementary-middle-and-high-school-principals",
+    "title": "Elementary, middle, and high school principals",
+    "exposure": 0,
+    "rationale": "Requires physical presence for safety oversight but involves leadership and relationship management, not physical labor."
+  },
+  {
+    "slug": "elevator-and-escalator-installers-and-repairers",
+    "title": "Elevator and escalator installers and repairers",
+    "exposure": 3,
+    "rationale": "Confined elevator shafts with precision mechanical work. Safety-critical systems and extreme height limit displacement."
+  },
+  {
+    "slug": "emergency-management-directors",
+    "title": "Emergency management directors",
+    "exposure": 0,
+    "rationale": "Requires high-stakes real-time decision-making during disasters. No physical labor in the directorial function."
+  },
+  {
+    "slug": "emts-and-paramedics",
+    "title": "EMTs and paramedics",
+    "exposure": 2,
+    "rationale": "Physical intervention in unpredictable, chaotic environments. Fine clinical judgment and extreme variability limit robot deployment."
+  },
+  {
+    "slug": "entertainment-and-recreation-managers",
+    "title": "Entertainment and recreation managers",
+    "exposure": 1,
+    "rationale": "Involves physical facility oversight and management of dynamic recreational environments."
+  },
+  {
+    "slug": "environmental-engineering-technologists-and-technicians",
+    "title": "Environmental engineering technologists and technicians",
+    "exposure": 3,
+    "rationale": "Collect field samples and conduct testing in varied environments. Some structured procedures could be robot-assisted."
+  },
+  {
+    "slug": "environmental-engineers",
+    "title": "Environmental engineers",
+    "exposure": 2,
+    "rationale": "Combines digital system design with physical field inspections in varied, often challenging outdoor conditions."
+  },
+  {
+    "slug": "environmental-science-and-protection-technicians",
+    "title": "Environmental science and protection technicians",
+    "exposure": 3,
+    "rationale": "Collect samples in varied environments. Lab testing follows more structured protocols."
+  },
+  {
+    "slug": "environmental-scientists-and-specialists",
+    "title": "Environmental scientists and specialists",
+    "exposure": 2,
+    "rationale": "Combines digital data analysis with fieldwork—collecting samples in varied natural environments."
+  },
+  {
+    "slug": "epidemiologists",
+    "title": "Epidemiologists",
+    "exposure": 1,
+    "rationale": "Predominantly data-intensive digital work. Field investigations require interpersonal skills and professional judgment."
+  },
+  {
+    "slug": "exercise-physiologists",
+    "title": "Exercise physiologists",
+    "exposure": 2,
+    "rationale": "Conduct physical stress tests requiring real-time patient observation. Clinical assessment limits robot applicability."
+  },
+  {
+    "slug": "farmers-ranchers-and-other-agricultural-managers",
+    "title": "Farmers, ranchers, and other agricultural managers",
+    "exposure": 3,
+    "rationale": "Farm management in highly variable outdoor environments with biological and weather unpredictability."
+  },
+  {
+    "slug": "fashion-designers",
+    "title": "Fashion designers",
+    "exposure": 2,
+    "rationale": "Involves digital CAD sketching combined with physical fabric handling and prototype construction requiring tactile judgment."
+  },
+  {
+    "slug": "film-and-video-editors-and-camera-operators",
+    "title": "Film and video editors and camera operators",
+    "exposure": 2,
+    "rationale": "Editors work in digital environments. Camera operators manage physical equipment in diverse locations with creative judgment."
+  },
+  {
+    "slug": "financial-analysts",
+    "title": "Financial analysts",
+    "exposure": 0,
+    "rationale": "Financial analysts work entirely in digital environments, processing datasets and generating reports on computers. No physical tasks exist that a humanoid robot could automate."
+  },
+  {
+    "slug": "financial-clerks",
+    "title": "Financial clerks",
+    "exposure": 0,
+    "rationale": "Financial clerks process records, verify data, and manage payroll entirely through computer systems. No physical manipulation of objects is required."
+  },
+  {
+    "slug": "financial-examiners",
+    "title": "Financial examiners",
+    "exposure": 0,
+    "rationale": "Financial examination involves reviewing documents entirely on computers. On-site audits require professional judgment, not physical labor."
+  },
+  {
+    "slug": "financial-managers",
+    "title": "Financial managers",
+    "exposure": 0,
+    "rationale": "Financial management involves data analysis, reporting, and advisory work performed on computers. No physical labor."
+  },
+  {
+    "slug": "fire-inspectors",
+    "title": "Fire inspectors",
+    "exposure": 2,
+    "rationale": "Navigate diverse building environments performing physical checks. Expert judgment for code violations limits robot applicability."
+  },
+  {
+    "slug": "firefighters",
+    "title": "Firefighters",
+    "exposure": 2,
+    "rationale": "Physical operation in extreme, unpredictable hazardous environments. Life-threatening conditions far exceed robot capabilities."
+  },
+  {
+    "slug": "fishing-and-hunting-workers",
+    "title": "Fishing and hunting workers",
+    "exposure": 1,
+    "rationale": "Most unpredictable natural environments—open ocean, dense forests. Environmental variability makes these least amenable to robots."
+  },
+  {
+    "slug": "fitness-trainers-and-instructors",
+    "title": "Fitness trainers and instructors",
+    "exposure": 1,
+    "rationale": "Physical demonstration and motivational coaching requiring human athletic performance and social connection."
+  },
+  {
+    "slug": "flight-attendants",
+    "title": "Flight attendants",
+    "exposure": 2,
+    "rationale": "Safety management and passenger service in confined aircraft cabins. Emergency response and regulatory requirements limit displacement."
+  },
+  {
+    "slug": "flooring-installers-and-tile-and-stone-setters",
+    "title": "Flooring installers and tile and stone setters",
+    "exposure": 4,
+    "rationale": "Repetitive indoor installation with defined patterns. Custom tile work and irregular rooms moderate displacement."
+  },
+  {
+    "slug": "floral-designers",
+    "title": "Floral designers",
+    "exposure": 3,
+    "rationale": "Physical manipulation of fresh plant materials in workshop environments. Irregular living materials and creative design limit displacement."
+  },
+  {
+    "slug": "food-and-beverage-serving-and-related-workers",
+    "title": "Food and beverage serving and related workers",
+    "exposure": 5,
+    "rationale": "Structured dining environments with repetitive service tasks. Social hospitality experience limits full displacement."
+  },
+  {
+    "slug": "food-preparation-workers",
+    "title": "Food preparation workers",
+    "exposure": 6,
+    "rationale": "Repetitive tasks in structured commercial kitchens. Controlled environments are moderately amenable to robot replacement."
+  },
+  {
+    "slug": "food-processing-equipment-workers",
+    "title": "Food processing equipment workers",
+    "exposure": 7,
+    "rationale": "Highly repetitive physical tasks in structured factory environments with controlled conditions. Among the more amenable to robot replacement."
+  },
+  {
+    "slug": "food-service-managers",
+    "title": "Food service managers",
+    "exposure": 2,
+    "rationale": "Requires physical kitchen oversight and real-time staff management. Interpersonal leadership cannot be replicated."
+  },
+  {
+    "slug": "forensic-science-technicians",
+    "title": "Forensic science technicians",
+    "exposure": 2,
+    "rationale": "Collect evidence at unpredictable crime scenes and analyze samples in structured labs."
+  },
+  {
+    "slug": "forest-and-conservation-workers",
+    "title": "Forest and conservation workers",
+    "exposure": 2,
+    "rationale": "Rugged outdoor environments with extreme terrain variability. Emergency fire suppression is particularly challenging."
+  },
+  {
+    "slug": "fundraisers",
+    "title": "Fundraisers",
+    "exposure": 0,
+    "rationale": "Fundraising involves donor research and relationship cultivation. The core value lies in human trust and persuasion."
+  },
+  {
+    "slug": "funeral-service-workers",
+    "title": "Funeral service workers",
+    "exposure": 3,
+    "rationale": "Physical preparation in structured mortuary environments. Grief counseling requires profound human empathy."
+  },
+  {
+    "slug": "gambling-services-workers",
+    "title": "Gambling services workers",
+    "exposure": 3,
+    "rationale": "Dealers perform structured tasks at fixed gaming tables. Social entertainment atmosphere limits displacement."
+  },
+  {
+    "slug": "general-maintenance-and-repair-workers",
+    "title": "General maintenance and repair workers",
+    "exposure": 3,
+    "rationale": "Repair diverse building systems in highly varied environments. No two jobs are identical, requiring adaptive problem-solving."
+  },
+  {
+    "slug": "general-office-clerks",
+    "title": "General office clerks",
+    "exposure": 1,
+    "rationale": "Core duties such as data entry, document formatting, and scheduling are entirely computer-based. A humanoid robot could theoretically handle physical mail sorting, but these tasks represent a small fraction of the role."
+  },
+  {
+    "slug": "genetic-counselors",
+    "title": "Genetic counselors",
+    "exposure": 0,
+    "rationale": "Involves interpreting DNA data and providing emotionally sensitive guidance. No physical tasks."
+  },
+  {
+    "slug": "geographers",
+    "title": "Geographers",
+    "exposure": 1,
+    "rationale": "Geography work involves analyzing GIS data on computers. Occasional fieldwork requires human navigation in unstructured outdoor settings."
+  },
+  {
+    "slug": "geological-and-hydrologic-technicians",
+    "title": "Geological and hydrologic technicians",
+    "exposure": 2,
+    "rationale": "Conduct fieldwork in diverse outdoor environments. Unpredictable terrain limits robot applicability."
+  },
+  {
+    "slug": "geoscientists",
+    "title": "Geoscientists",
+    "exposure": 2,
+    "rationale": "Combine digital analysis with physical fieldwork in varied outdoor environments."
+  },
+  {
+    "slug": "glaziers",
+    "title": "Glaziers",
+    "exposure": 3,
+    "rationale": "Diverse glass installations requiring strength and precision with fragile materials."
+  },
+  {
+    "slug": "graphic-designers",
+    "title": "Graphic designers",
+    "exposure": 0,
+    "rationale": "Graphic design is performed entirely on computer workstations using digital design tools. No physical manipulation of materials is required."
+  },
+  {
+    "slug": "grounds-maintenance-workers",
+    "title": "Grounds maintenance workers",
+    "exposure": 5,
+    "rationale": "Repetitive outdoor tasks in semi-structured environments. Autonomous mowers exist; complex landscaping requires human judgment."
+  },
+  {
+    "slug": "hand-laborers-and-material-movers",
+    "title": "Hand laborers and material movers",
+    "exposure": 7,
+    "rationale": "Repetitive physical tasks in semi-structured warehouse environments. Controlled settings with standardized workflows are well-suited for robots."
+  },
+  {
+    "slug": "hazardous-materials-removal-workers",
+    "title": "Hazardous materials removal workers",
+    "exposure": 4,
+    "rationale": "Structured remediation procedures in contained work environments. Diverse building conditions moderate displacement."
+  },
+  {
+    "slug": "health-and-safety-engineers",
+    "title": "Health and safety engineers",
+    "exposure": 2,
+    "rationale": "Involve physical inspection of industrial facilities. Professional judgment about hazards requires human expertise."
+  },
+  {
+    "slug": "health-education-specialists",
+    "title": "Health education specialists",
+    "exposure": 0,
+    "rationale": "Involves community outreach and interpersonal health coaching. No physical labor."
+  },
+  {
+    "slug": "health-information-technologists-and-medical-registrars",
+    "title": "Health information technologists and medical registrars",
+    "exposure": 0,
+    "rationale": "This occupation involves classifying clinical data and managing electronic health records on computer systems—all digital tasks."
+  },
+  {
+    "slug": "heating-air-conditioning-and-refrigeration-mechanics-and-installers",
+    "title": "Heating, air conditioning, and refrigeration mechanics and installers",
+    "exposure": 2,
+    "rationale": "Complex climate systems in diverse building environments—attics, rooftops, tight spaces."
+  },
+  {
+    "slug": "heavy-and-tractor-trailer-truck-drivers",
+    "title": "Heavy and tractor-trailer truck drivers",
+    "exposure": 5,
+    "rationale": "Highway driving is highly amenable to automation, but securing cargo and navigating complex loading yards remain challenging for robots."
+  },
+  {
+    "slug": "heavy-vehicle-and-mobile-equipment-service-technicians",
+    "title": "Heavy vehicle and mobile equipment service technicians",
+    "exposure": 3,
+    "rationale": "Work on large equipment in diverse environments. Enormous variety creates complex physical challenges."
+  },
+  {
+    "slug": "high-school-teachers",
+    "title": "High school teachers",
+    "exposure": 1,
+    "rationale": "Teaching requires physical presence but the core value is cognitive and social—explaining concepts and managing student behavior. No physical labor."
+  },
+  {
+    "slug": "historians",
+    "title": "Historians",
+    "exposure": 0,
+    "rationale": "Historical research involves archival research, document analysis, and writing—entirely cognitive and digital tasks."
+  },
+  {
+    "slug": "home-health-and-personal-care-aides",
+    "title": "Home health and personal care aides",
+    "exposure": 3,
+    "rationale": "Physical care in highly diverse residential environments. Home variability and intimate personal care require human empathy."
+  },
+  {
+    "slug": "human-resources-managers",
+    "title": "Human resources managers",
+    "exposure": 0,
+    "rationale": "HR management involves strategic people-management and policy oversight. No physical tasks required."
+  },
+  {
+    "slug": "human-resources-specialists",
+    "title": "Human resources specialists",
+    "exposure": 0,
+    "rationale": "HR work involves recruiting, employee relations, and record-keeping through digital systems and interpersonal interactions. No physical labor."
+  },
+  {
+    "slug": "hydrologists",
+    "title": "Hydrologists",
+    "exposure": 2,
+    "rationale": "Combines digital data modeling with field sampling in varied natural water environments."
+  },
+  {
+    "slug": "industrial-designers",
+    "title": "Industrial designers",
+    "exposure": 1,
+    "rationale": "Most work is performed through digital CAD and 3D modeling. Physical prototyping represents a small, highly skilled fraction."
+  },
+  {
+    "slug": "industrial-engineering-technologists-and-technicians",
+    "title": "Industrial engineering technologists and technicians",
+    "exposure": 3,
+    "rationale": "Work on manufacturing floors performing time-motion studies. Structured factory environments offer some robot applicability."
+  },
+  {
+    "slug": "industrial-engineers",
+    "title": "Industrial engineers",
+    "exposure": 1,
+    "rationale": "Predominantly digital—analyzing workflows and modeling systems on computers. Occasional shop floor visits require observation, not labor."
+  },
+  {
+    "slug": "industrial-machinery-mechanics-machinery-maintenance-workers-and-millwrights",
+    "title": "Industrial machinery mechanics, machinery maintenance workers, and millwrights",
+    "exposure": 4,
+    "rationale": "Factory environments are structured but equipment variety and failure modes require adaptive problem-solving."
+  },
+  {
+    "slug": "industrial-production-managers",
+    "title": "Industrial production managers",
+    "exposure": 2,
+    "rationale": "Involves physical oversight of manufacturing facilities combined with digital planning. Factory supervision requires expert judgment."
+  },
+  {
+    "slug": "information-clerks",
+    "title": "Information clerks",
+    "exposure": 2,
+    "rationale": "Mostly computer-based data processing. Some roles at hotel desks or airports require physical presence and basic document handling."
+  },
+  {
+    "slug": "information-security-analysts",
+    "title": "Information security analysts",
+    "exposure": 0,
+    "rationale": "Information security is entirely digital—network monitoring, vulnerability analysis, and incident response through computer systems."
+  },
+  {
+    "slug": "instructional-coordinators",
+    "title": "Instructional coordinators",
+    "exposure": 0,
+    "rationale": "Involves curriculum development and data analysis through digital tools and meetings. No physical tasks."
+  },
+  {
+    "slug": "insulation-workers",
+    "title": "Insulation workers",
+    "exposure": 4,
+    "rationale": "Repetitive cutting and fitting in indoor construction environments. Confined spaces and varied conditions moderate displacement."
+  },
+  {
+    "slug": "insurance-sales-agents",
+    "title": "Insurance sales agents",
+    "exposure": 0,
+    "rationale": "Insurance sales involves analyzing policies and client communication through digital systems. In-person meetings require relationship-building, not labor."
+  },
+  {
+    "slug": "insurance-underwriters",
+    "title": "Insurance underwriters",
+    "exposure": 0,
+    "rationale": "Underwriting involves analyzing financial documents and risk data entirely through computer systems. All value-generating work occurs in the digital domain."
+  },
+  {
+    "slug": "interior-designers",
+    "title": "Interior designers",
+    "exposure": 1,
+    "rationale": "Involves CAD modeling and client consultations. Site visits require aesthetic judgment, not physical labor."
+  },
+  {
+    "slug": "interpreters-and-translators",
+    "title": "Interpreters and translators",
+    "exposure": 1,
+    "rationale": "The vast majority of translation work is performed digitally. In-person interpretation involves no physical manipulation tasks a robot could perform."
+  },
+  {
+    "slug": "ironworkers",
+    "title": "Ironworkers",
+    "exposure": 2,
+    "rationale": "Physical work at extreme heights on structural steel frames in outdoor environments. Balance on narrow beams is far beyond robot capabilities."
+  },
+  {
+    "slug": "janitors-and-building-cleaners",
+    "title": "Janitors and building cleaners",
+    "exposure": 8,
+    "rationale": "Highly repetitive physical tasks in semi-structured indoor environments. Autonomous cleaning robots exist; humanoid robots could extend to varied tasks."
+  },
+  {
+    "slug": "jewelers-and-precious-stone-and-metal-workers",
+    "title": "Jewelers and precious stone and metal workers",
+    "exposure": 3,
+    "rationale": "Extraordinary fine motor precision at extreme limits of current robot dexterity, especially for custom work."
+  },
+  {
+    "slug": "judges-and-hearing-officers",
+    "title": "Judges and hearing officers",
+    "exposure": 0,
+    "rationale": "Judging requires human judgment and public accountability. No physical tasks."
+  },
+  {
+    "slug": "kindergarten-and-elementary-school-teachers",
+    "title": "Kindergarten and elementary school teachers",
+    "exposure": 2,
+    "rationale": "Requires constant physical presence with young children. Physical tasks include managing classroom activities and safety supervision."
+  },
+  {
+    "slug": "labor-relations-specialists",
+    "title": "Labor relations specialists",
+    "exposure": 0,
+    "rationale": "Involves contract drafting and interpersonal negotiation—all knowledge and communication-based work."
+  },
+  {
+    "slug": "landscape-architects",
+    "title": "Landscape architects",
+    "exposure": 1,
+    "rationale": "Involves digital CADD modeling and site visits. Site visits require professional assessment, not physical labor."
+  },
+  {
+    "slug": "lawyers",
+    "title": "Lawyers",
+    "exposure": 0,
+    "rationale": "Legal work is entirely knowledge-based—document drafting, legal research, and case strategy on computers. Physical courtroom presence involves only human advocacy."
+  },
+  {
+    "slug": "librarians-and-library-media-specialists",
+    "title": "Librarians and library media specialists",
+    "exposure": 2,
+    "rationale": "Librarians combine digital work with physical collection management. Community-facing functions require human judgment."
+  },
+  {
+    "slug": "library-technicians-and-assistants",
+    "title": "Library technicians and assistants",
+    "exposure": 4,
+    "rationale": "Library technicians perform repetitive physical tasks—reshelving books in structured environments. Well-suited for robot manipulation of standardized objects."
+  },
+  {
+    "slug": "licensed-practical-and-licensed-vocational-nurses",
+    "title": "Licensed practical and licensed vocational nurses",
+    "exposure": 3,
+    "rationale": "Hands-on patient care in structured clinical settings. Patient complexity and safety-critical nature limit displacement."
+  },
+  {
+    "slug": "loan-officers",
+    "title": "Loan officers",
+    "exposure": 0,
+    "rationale": "Loan officers analyze financial documents through computer systems. Client meetings require interpersonal skills, not physical labor."
+  },
+  {
+    "slug": "lodging-managers",
+    "title": "Lodging managers",
+    "exposure": 1,
+    "rationale": "Involves facility inspection and guest relations. Interpersonal warmth and adaptive management require human presence."
+  },
+  {
+    "slug": "logging-workers",
+    "title": "Logging workers",
+    "exposure": 2,
+    "rationale": "Extreme outdoor environments with highly variable terrain. Forest conditions are among the most challenging for robots."
+  },
+  {
+    "slug": "logisticians",
+    "title": "Logisticians",
+    "exposure": 0,
+    "rationale": "Logistics management involves supply chain analysis and coordination through digital platforms. No physical labor."
+  },
+  {
+    "slug": "machinists-and-tool-and-die-makers",
+    "title": "Machinists and tool and die makers",
+    "exposure": 5,
+    "rationale": "Operate precision machine tools in structured environments. Custom tooling and blueprint interpretation moderate displacement."
+  },
+  {
+    "slug": "management-analysts",
+    "title": "Management analysts",
+    "exposure": 0,
+    "rationale": "Management consulting involves data analysis, report writing, and presentations—all through computers and meetings. No physical tasks."
+  },
+  {
+    "slug": "manicurists-and-pedicurists",
+    "title": "Manicurists and pedicurists",
+    "exposure": 2,
+    "rationale": "Extreme tactile precision on small, variable nail surfaces. Social wellness experience limits displacement."
+  },
+  {
+    "slug": "marine-engineers-and-naval-architects",
+    "title": "Marine engineers and naval architects",
+    "exposure": 2,
+    "rationale": "Involves digital design work combined with physical inspections of ships and offshore platforms in hazardous environments."
+  },
+  {
+    "slug": "market-research-analysts",
+    "title": "Market research analysts",
+    "exposure": 0,
+    "rationale": "All core work—data collection, statistical analysis, and report generation—is performed on computers. Physical presence is not required."
+  },
+  {
+    "slug": "marriage-and-family-therapists",
+    "title": "Marriage and family therapists",
+    "exposure": 0,
+    "rationale": "Relies on human empathy, interpersonal dynamics, and therapeutic relationship-building. No physical tasks."
+  },
+  {
+    "slug": "masonry-workers",
+    "title": "Masonry workers",
+    "exposure": 3,
+    "rationale": "Outdoor construction environments with variable surfaces and weather. Repetitive brick-laying in controlled settings has more potential."
+  },
+  {
+    "slug": "massage-therapists",
+    "title": "Massage therapists",
+    "exposure": 2,
+    "rationale": "Extraordinarily nuanced tactile pressure adjustment based on real-time tissue feedback. Therapeutic relationship is central."
+  },
+  {
+    "slug": "material-moving-machine-operators",
+    "title": "Material moving machine operators",
+    "exposure": 6,
+    "rationale": "Repetitive material transport in structured warehouse environments. Defined routes and standardized pallets create strong applicability."
+  },
+  {
+    "slug": "material-recording-clerks",
+    "title": "Material recording clerks",
+    "exposure": 5,
+    "rationale": "Clerks track inventory and scan items in warehouses—structured environments with repetitive physical tasks suitable for robot operation."
+  },
+  {
+    "slug": "materials-engineers",
+    "title": "Materials engineers",
+    "exposure": 2,
+    "rationale": "Involves simulation and digital analysis combined with physical lab testing of material properties."
+  },
+  {
+    "slug": "mathematicians-and-statisticians",
+    "title": "Mathematicians and statisticians",
+    "exposure": 0,
+    "rationale": "Mathematical and statistical work is entirely cognitive and computer-based, involving modeling, data analysis, and coding."
+  },
+  {
+    "slug": "mechanical-engineering-technologists-and-technicians",
+    "title": "Mechanical engineering technologists and technicians",
+    "exposure": 3,
+    "rationale": "Perform assembly and testing in structured lab environments. Diversity of systems limits broader displacement."
+  },
+  {
+    "slug": "mechanical-engineers",
+    "title": "Mechanical engineers",
+    "exposure": 1,
+    "rationale": "Predominantly digital—CAD modeling and simulation. Physical prototyping is specialized and non-repetitive."
+  },
+  {
+    "slug": "medical-and-health-services-managers",
+    "title": "Medical and health services managers",
+    "exposure": 0,
+    "rationale": "Healthcare management involves budgeting, staff oversight, and regulatory compliance. Physical presence is for supervision, not labor."
+  },
+  {
+    "slug": "medical-assistants",
+    "title": "Medical assistants",
+    "exposure": 3,
+    "rationale": "Physical clinical tasks in structured settings. Patient variability and empathetic communication limit displacement."
+  },
+  {
+    "slug": "medical-dosimetrists",
+    "title": "Medical dosimetrists",
+    "exposure": 2,
+    "rationale": "Primarily digital treatment planning. Some physical tasks include calibrating radiation equipment in structured clinical environments."
+  },
+  {
+    "slug": "medical-equipment-repairers",
+    "title": "Medical equipment repairers",
+    "exposure": 3,
+    "rationale": "Diverse hospital equipment in structured healthcare settings. Variety and precision of medical device repair limit displacement."
+  },
+  {
+    "slug": "medical-records-specialists",
+    "title": "Medical records specialists",
+    "exposure": 0,
+    "rationale": "Medical records work involves classifying, coding, and entering clinical data into electronic health systems—all digital tasks."
+  },
+  {
+    "slug": "medical-scientists",
+    "title": "Medical scientists",
+    "exposure": 2,
+    "rationale": "Split between digital research and physical laboratory work. Structured lab environments offer some robot applicability for routine tasks."
+  },
+  {
+    "slug": "medical-transcriptionists",
+    "title": "Medical transcriptionists",
+    "exposure": 0,
+    "rationale": "This occupation is entirely digital—workers transcribe audio into text using computers. A humanoid robot provides no physical advantage whatsoever for this task. No physical labor is involved at any stage of the work."
+  },
+  {
+    "slug": "meeting-convention-and-event-planners",
+    "title": "Meeting, convention, and event planners",
+    "exposure": 1,
+    "rationale": "Involves on-site event supervision requiring real-time problem-solving and interpersonal management."
+  },
+  {
+    "slug": "metal-and-plastic-machine-workers",
+    "title": "Metal and plastic machine workers",
+    "exposure": 7,
+    "rationale": "Operate CNC equipment in structured factory environments with standardized, repetitive workflows well-suited for humanoid robots."
+  },
+  {
+    "slug": "microbiologists",
+    "title": "Microbiologists",
+    "exposure": 3,
+    "rationale": "Involves specialized laboratory work in controlled environments. Many protocols are standardized but require expert judgment."
+  },
+  {
+    "slug": "middle-school-teachers",
+    "title": "Middle school teachers",
+    "exposure": 1,
+    "rationale": "Teaching involves classroom instruction and adolescent mentorship. Physical presence is for social authority, not labor."
+  },
+  {
+    "slug": "military-careers",
+    "title": "Military careers",
+    "exposure": 2,
+    "rationale": "Vast range of physical activities in unpredictable, adversarial environments. Legal and ethical requirements limit robot replacement."
+  },
+  {
+    "slug": "mining-and-geological-engineers",
+    "title": "Mining and geological engineers",
+    "exposure": 2,
+    "rationale": "Involves digital mine planning with physical site evaluations in hazardous underground environments."
+  },
+  {
+    "slug": "models",
+    "title": "Models",
+    "exposure": 3,
+    "rationale": "Modeling involves physical posing in controlled studio environments. However, conveying authentic human emotion and aesthetic expression is beyond current robot capabilities."
+  },
+  {
+    "slug": "music-directors-and-composers",
+    "title": "Music directors and composers",
+    "exposure": 1,
+    "rationale": "Conducting requires nuanced human expression and real-time adaptive leadership. Composing occurs on digital notation software."
+  },
+  {
+    "slug": "musicians-and-singers",
+    "title": "Musicians and singers",
+    "exposure": 1,
+    "rationale": "Live performance involves the human body as the primary artistic instrument. Robots lack expressive authenticity."
+  },
+  {
+    "slug": "natural-sciences-managers",
+    "title": "Natural sciences managers",
+    "exposure": 0,
+    "rationale": "Involves overseeing research programs and managing budgets. Lab presence is for supervision, not manual labor."
+  },
+  {
+    "slug": "network-and-computer-systems-administrators",
+    "title": "Network and computer systems administrators",
+    "exposure": 2,
+    "rationale": "Much is digital, but physical tasks like racking servers and running cables are genuine parts of the role in structured data centers."
+  },
+  {
+    "slug": "news-analysts-reporters-and-journalists",
+    "title": "News analysts, reporters, and journalists",
+    "exposure": 1,
+    "rationale": "Journalism involves field reporting and source cultivation—primarily cognitive and social activities."
+  },
+  {
+    "slug": "nuclear-engineers",
+    "title": "Nuclear engineers",
+    "exposure": 2,
+    "rationale": "Involves digital design and simulation combined with physical facility inspections in radiation-hazardous environments."
+  },
+  {
+    "slug": "nuclear-medicine-technologists",
+    "title": "Nuclear medicine technologists",
+    "exposure": 3,
+    "rationale": "Prepare radiopharmaceuticals and operate gamma cameras in structured environments. Radioactive material handling requires expertise."
+  },
+  {
+    "slug": "nuclear-technicians",
+    "title": "Nuclear technicians",
+    "exposure": 3,
+    "rationale": "Work in structured plant environments. Controlled setting offers some applicability but radiation hazard and regulation limit deployment."
+  },
+  {
+    "slug": "nurse-anesthetists-nurse-midwives-and-nurse-practitioners",
+    "title": "Nurse anesthetists, nurse midwives, and nurse practitioners",
+    "exposure": 2,
+    "rationale": "Complex clinical procedures require extraordinary precision and real-time adaptive judgment beyond robotic capability."
+  },
+  {
+    "slug": "nursing-assistants-and-orderlies",
+    "title": "Nursing assistants and orderlies",
+    "exposure": 4,
+    "rationale": "Structured patient care tasks in hospital environments. Clinical setting offers more structure; patient variability moderates displacement."
+  },
+  {
+    "slug": "occupational-health-and-safety-specialists-and-technicians",
+    "title": "Occupational health and safety specialists and technicians",
+    "exposure": 2,
+    "rationale": "Conduct physical worksite inspections in diverse industrial environments requiring professional judgment."
+  },
+  {
+    "slug": "occupational-therapists",
+    "title": "Occupational therapists",
+    "exposure": 2,
+    "rationale": "Physical assessment in diverse environments with hands-on therapeutic interventions. Individualized and patient-specific."
+  },
+  {
+    "slug": "occupational-therapy-assistants-and-aides",
+    "title": "Occupational therapy assistants and aides",
+    "exposure": 3,
+    "rationale": "Guide patients through structured therapeutic exercises. Defined protocols offer some applicability; empathy limits displacement."
+  },
+  {
+    "slug": "oil-and-gas-workers",
+    "title": "Oil and gas workers",
+    "exposure": 2,
+    "rationale": "Physically demanding work in hazardous, unpredictable environments. Extreme conditions create major barriers."
+  },
+  {
+    "slug": "operations-research-analysts",
+    "title": "Operations research analysts",
+    "exposure": 0,
+    "rationale": "Operations research is entirely computer-based involving data modeling and optimization algorithms. Software and AI are the relevant automation forces."
+  },
+  {
+    "slug": "opticians",
+    "title": "Opticians",
+    "exposure": 3,
+    "rationale": "Physical fitting tasks in structured retail settings. Tactile adjustment on diverse faces moderates displacement."
+  },
+  {
+    "slug": "optometrists",
+    "title": "Optometrists",
+    "exposure": 2,
+    "rationale": "Physical eye examinations and minor procedures requiring clinical precision. Patient counseling is essential."
+  },
+  {
+    "slug": "orthotists-and-prosthetists",
+    "title": "Orthotists and prosthetists",
+    "exposure": 2,
+    "rationale": "Highly individualized physical measurement and custom fabrication requiring patient-specific adaptation."
+  },
+  {
+    "slug": "painters-construction-and-maintenance",
+    "title": "Painters, construction and maintenance",
+    "exposure": 4,
+    "rationale": "Physical surface preparation and painting in diverse building environments. Structured industrial painting has more potential."
+  },
+  {
+    "slug": "painting-and-coating-workers",
+    "title": "Painting and coating workers",
+    "exposure": 5,
+    "rationale": "Repetitive surface application in structured manufacturing environments. Industrial spray painting is already partially automated."
+  },
+  {
+    "slug": "paralegals-and-legal-assistants",
+    "title": "Paralegals and legal assistants",
+    "exposure": 0,
+    "rationale": "Core duties—legal research, document drafting, and case organization—are entirely digital. The automation risk is purely from AI language models, not physical robots."
+  },
+  {
+    "slug": "personal-financial-advisors",
+    "title": "Personal financial advisors",
+    "exposure": 0,
+    "rationale": "Financial advising is relationship-driven requiring trust, emotional reassurance, and complex ethical judgment. No physical tasks."
+  },
+  {
+    "slug": "pest-control-workers",
+    "title": "Pest control workers",
+    "exposure": 2,
+    "rationale": "Diverse and confined spaces—crawl spaces, attics—in unpredictable environments. Complex navigation required."
+  },
+  {
+    "slug": "petroleum-engineers",
+    "title": "Petroleum engineers",
+    "exposure": 2,
+    "rationale": "Involves digital modeling combined with site visits to remote and offshore locations in hazardous environments."
+  },
+  {
+    "slug": "pharmacists",
+    "title": "Pharmacists",
+    "exposure": 4,
+    "rationale": "Retail dispensing involves repetitive structured tasks at fixed stations. Automated systems already exist. Clinical consultation remains human."
+  },
+  {
+    "slug": "pharmacy-technicians",
+    "title": "Pharmacy technicians",
+    "exposure": 6,
+    "rationale": "Highly structured, repetitive tasks at fixed dispensing stations. Automated dispensing robots already exist in hospitals."
+  },
+  {
+    "slug": "phlebotomists",
+    "title": "Phlebotomists",
+    "exposure": 3,
+    "rationale": "Venipuncture in clinical settings requiring tactile assessment. Patient variability in vein accessibility limits displacement."
+  },
+  {
+    "slug": "photographers",
+    "title": "Photographers",
+    "exposure": 2,
+    "rationale": "Photography requires operating cameras in diverse environments with creative judgment. Robots could assist in controlled studios but not replace artistic decision-making."
+  },
+  {
+    "slug": "physical-therapist-assistants-and-aides",
+    "title": "Physical therapist assistants and aides",
+    "exposure": 3,
+    "rationale": "Structured exercise guidance in clinical settings. Defined protocols offer some applicability; tactile assessment limits displacement."
+  },
+  {
+    "slug": "physical-therapists",
+    "title": "Physical therapists",
+    "exposure": 2,
+    "rationale": "Hands-on manual techniques requiring tactile precision and real-time patient response assessment."
+  },
+  {
+    "slug": "physician-assistants",
+    "title": "Physician assistants",
+    "exposure": 2,
+    "rationale": "Perform physical examinations and clinical procedures requiring precision and patient-specific adaptation."
+  },
+  {
+    "slug": "physicians-and-surgeons",
+    "title": "Physicians and surgeons",
+    "exposure": 2,
+    "rationale": "Medical procedures require extraordinary manual precision and real-time adaptation. Robotic surgical systems are tools, not autonomous replacements."
+  },
+  {
+    "slug": "physicists-and-astronomers",
+    "title": "Physicists and astronomers",
+    "exposure": 1,
+    "rationale": "Predominantly digital work with data analysis and mathematical modeling. Physical lab tasks require specialized scientific expertise."
+  },
+  {
+    "slug": "plumbers-pipefitters-and-steamfitters",
+    "title": "Plumbers, pipefitters, and steamfitters",
+    "exposure": 2,
+    "rationale": "Confined, variable environments with diverse pipe materials. Extreme variability in older buildings limits displacement."
+  },
+  {
+    "slug": "podiatrists",
+    "title": "Podiatrists",
+    "exposure": 2,
+    "rationale": "Precise clinical procedures requiring fine motor dexterity. Patient anatomy varies significantly."
+  },
+  {
+    "slug": "police-and-detectives",
+    "title": "Police and detectives",
+    "exposure": 2,
+    "rationale": "Physical presence in unpredictable community environments. Dynamic and high-stakes nature limits robot applicability."
+  },
+  {
+    "slug": "political-scientists",
+    "title": "Political scientists",
+    "exposure": 0,
+    "rationale": "Political science is entirely knowledge-based—research, data analysis, and writing on computers. No physical tasks required."
+  },
+  {
+    "slug": "postal-service-workers",
+    "title": "Postal service workers",
+    "exposure": 5,
+    "rationale": "Structured sorting environments and repetitive delivery routes create meaningful robot applicability."
+  },
+  {
+    "slug": "postsecondary-education-administrators",
+    "title": "Postsecondary education administrators",
+    "exposure": 0,
+    "rationale": "Higher education administration involves reviewing applications and managing budgets through digital systems. No physical labor."
+  },
+  {
+    "slug": "postsecondary-teachers",
+    "title": "Postsecondary teachers",
+    "exposure": 1,
+    "rationale": "Teaching involves lectures, discussions, and research—primarily cognitive and social activities. No physical labor required."
+  },
+  {
+    "slug": "power-plant-operators-distributors-and-dispatchers",
+    "title": "Power plant operators, distributors, and dispatchers",
+    "exposure": 4,
+    "rationale": "Operators monitor control panels and adjust equipment in structured industrial control rooms. Controlled environment with repetitive monitoring tasks."
+  },
+  {
+    "slug": "preschool-and-childcare-center-directors",
+    "title": "Preschool and childcare center directors",
+    "exposure": 1,
+    "rationale": "Manage staff, oversee curriculum, and build family relationships. Physical presence is for oversight, not labor."
+  },
+  {
+    "slug": "preschool-teachers",
+    "title": "Preschool teachers",
+    "exposure": 1,
+    "rationale": "Constant physical supervision and care of young children. Emotional security from human caregivers is fundamental to child development."
+  },
+  {
+    "slug": "private-detectives-and-investigators",
+    "title": "Private detectives and investigators",
+    "exposure": 1,
+    "rationale": "Involves physical surveillance and in-person interviews in unpredictable environments. Requires inconspicuous human presence."
+  },
+  {
+    "slug": "probation-officers-and-correctional-treatment-specialists",
+    "title": "Probation officers and correctional treatment specialists",
+    "exposure": 1,
+    "rationale": "Involves home visits and building relationships with resistant clients in unpredictable community settings."
+  },
+  {
+    "slug": "producers-and-directors",
+    "title": "Producers and directors",
+    "exposure": 1,
+    "rationale": "Producing involves creative decision-making and team leadership. Physical presence is for leadership and communication, not manual labor."
+  },
+  {
+    "slug": "project-management-specialists",
+    "title": "Project management specialists",
+    "exposure": 0,
+    "rationale": "Project management involves scheduling, documentation, and coordination through digital tools. No physical labor required."
+  },
+  {
+    "slug": "property-appraisers-and-assessors",
+    "title": "Property appraisers and assessors",
+    "exposure": 2,
+    "rationale": "Involves physical site inspections combined with digital analysis. Inspections require professional valuation judgment."
+  },
+  {
+    "slug": "property-real-estate-and-community-association-managers",
+    "title": "Property, real estate, and community association managers",
+    "exposure": 2,
+    "rationale": "Involves physical inspections of diverse facilities combined with administrative and tenant relations work."
+  },
+  {
+    "slug": "psychiatric-technicians-and-aides",
+    "title": "Psychiatric technicians and aides",
+    "exposure": 2,
+    "rationale": "Physical care and behavioral management for patients with serious mental illness. Unpredictable and potentially violent environments."
+  },
+  {
+    "slug": "psychologists",
+    "title": "Psychologists",
+    "exposure": 0,
+    "rationale": "Requires empathy, clinical observation, and therapeutic relationship-building. No physical tasks."
+  },
+  {
+    "slug": "public-relations-and-fundraising-managers",
+    "title": "Public relations and fundraising managers",
+    "exposure": 0,
+    "rationale": "PR management involves strategic planning and high-stakes interpersonal communication. No physical tasks."
+  },
+  {
+    "slug": "public-relations-specialists",
+    "title": "Public relations specialists",
+    "exposure": 0,
+    "rationale": "PR work involves writing press releases and managing social media—all digital tasks. Event presence involves purely social interactions."
+  },
+  {
+    "slug": "public-safety-telecommunicators",
+    "title": "Public safety telecommunicators",
+    "exposure": 0,
+    "rationale": "Emergency dispatchers work at computer consoles processing voice communications. No physical tasks."
+  },
+  {
+    "slug": "purchasing-managers-buyers-and-purchasing-agents",
+    "title": "Purchasing managers, buyers, and purchasing agents",
+    "exposure": 0,
+    "rationale": "Purchasing involves analyzing proposals and managing orders through computer systems. Occasional physical inspection is minor."
+  },
+  {
+    "slug": "quality-control-inspectors",
+    "title": "Quality control inspectors",
+    "exposure": 6,
+    "rationale": "Inspection at fixed stations in structured factories involves repetitive visual and tactile checks. Computer vision and robots can handle structured inspection tasks."
+  },
+  {
+    "slug": "radiation-therapists",
+    "title": "Radiation therapists",
+    "exposure": 4,
+    "rationale": "Position patients on treatment tables in structured rooms with defined protocols. Patient comfort and communication moderate displacement."
+  },
+  {
+    "slug": "radiologic-and-mri-technologists",
+    "title": "Radiologic and MRI technologists",
+    "exposure": 3,
+    "rationale": "Position patients and operate imaging equipment in structured clinical rooms. Patient communication limits displacement."
+  },
+  {
+    "slug": "railroad-workers",
+    "title": "Railroad workers",
+    "exposure": 4,
+    "rationale": "Driving on fixed tracks is automatable. Physical trackside work in varied conditions moderates overall risk."
+  },
+  {
+    "slug": "real-estate-brokers-and-sales-agents",
+    "title": "Real estate brokers and sales agents",
+    "exposure": 1,
+    "rationale": "Involves property showings and contract negotiation. Physical tours require navigation of diverse, unstructured spaces."
+  },
+  {
+    "slug": "receptionists",
+    "title": "Receptionists",
+    "exposure": 3,
+    "rationale": "Receptionists work at fixed front desk stations. Physical tasks like accepting packages could be partially automated, but social gatekeeper function limits displacement."
+  },
+  {
+    "slug": "recreation-workers",
+    "title": "Recreation workers",
+    "exposure": 2,
+    "rationale": "Supervise activities in dynamic community environments requiring adaptive human leadership."
+  },
+  {
+    "slug": "recreational-therapists",
+    "title": "Recreational therapists",
+    "exposure": 2,
+    "rationale": "Leading physical activities with patients requiring real-time assistance and emotional support."
+  },
+  {
+    "slug": "registered-nurses",
+    "title": "Registered nurses",
+    "exposure": 3,
+    "rationale": "Complex physical tasks combined with interpersonal care. Clinical environment is somewhat structured but patient variability is enormous."
+  },
+  {
+    "slug": "rehabilitation-counselors",
+    "title": "Rehabilitation counselors",
+    "exposure": 0,
+    "rationale": "Involves providing emotional support for people with disabilities. No physical tasks."
+  },
+  {
+    "slug": "respiratory-therapists",
+    "title": "Respiratory therapists",
+    "exposure": 3,
+    "rationale": "Hands-on patient care in clinical settings. Emergency response and adaptive clinical judgment limit displacement."
+  },
+  {
+    "slug": "retail-sales-workers",
+    "title": "Retail sales workers",
+    "exposure": 4,
+    "rationale": "Semi-structured retail environments with standardized shelving. Robots could stock shelves but social sales dynamics limit displacement."
+  },
+  {
+    "slug": "roofers",
+    "title": "Roofers",
+    "exposure": 2,
+    "rationale": "Extreme safety risks on sloped surfaces at heights in variable weather. Physical balance on slopes is beyond current robot capabilities."
+  },
+  {
+    "slug": "sales-engineers",
+    "title": "Sales engineers",
+    "exposure": 0,
+    "rationale": "Combines technical knowledge with interpersonal persuasion. No physical labor in the core function."
+  },
+  {
+    "slug": "sales-managers",
+    "title": "Sales managers",
+    "exposure": 0,
+    "rationale": "Sales management involves CRM analysis, strategy development, and team leadership. No physical labor required."
+  },
+  {
+    "slug": "school-and-career-counselors-and-advisors",
+    "title": "School and career counselors and advisors",
+    "exposure": 0,
+    "rationale": "Involves providing emotional support, crisis intervention, and career guidance. No physical tasks."
+  },
+  {
+    "slug": "secretaries-and-administrative-assistants",
+    "title": "Secretaries and administrative assistants",
+    "exposure": 1,
+    "rationale": "The vast majority involves scheduling, drafting correspondence, and managing databases on computers. Physical tasks like handling mail represent a small portion."
+  },
+  {
+    "slug": "securities-commodities-and-financial-services-sales-agents",
+    "title": "Securities, commodities, and financial services sales agents",
+    "exposure": 0,
+    "rationale": "Financial services sales is performed through digital trading platforms, phone calls, and computer-based analysis. No physical tasks."
+  },
+  {
+    "slug": "security-guards-and-gambling-surveillance-officers",
+    "title": "Security guards and gambling surveillance officers",
+    "exposure": 5,
+    "rationale": "Structured patrol environments are suitable for robots. Physical detention and emergency response require human judgment."
+  },
+  {
+    "slug": "semiconductor-processing-technicians",
+    "title": "Semiconductor processing technicians",
+    "exposure": 5,
+    "rationale": "Highly structured cleanroom environments with standardized equipment and defined protocols well-suited for robots."
+  },
+  {
+    "slug": "set-and-exhibit-designers",
+    "title": "Set and exhibit designers",
+    "exposure": 2,
+    "rationale": "Involves digital CAD work combined with physical oversight of set construction. Requires creative decision-making."
+  },
+  {
+    "slug": "sheet-metal-workers",
+    "title": "Sheet metal workers",
+    "exposure": 4,
+    "rationale": "Repetitive fabrication in structured shops has robot applicability. Field installation in construction environments is more variable."
+  },
+  {
+    "slug": "skincare-specialists",
+    "title": "Skincare specialists",
+    "exposure": 2,
+    "rationale": "Tactile precision for skin treatments with constant real-time adjustment. Interpersonal wellness experience limits displacement."
+  },
+  {
+    "slug": "small-engine-mechanics",
+    "title": "Small engine mechanics",
+    "exposure": 3,
+    "rationale": "Diverse engine types and failure modes in workshop environments. Routine maintenance has more robot potential."
+  },
+  {
+    "slug": "social-and-community-service-managers",
+    "title": "Social and community service managers",
+    "exposure": 0,
+    "rationale": "Involves program oversight and stakeholder engagement requiring human empathy and leadership. No physical labor."
+  },
+  {
+    "slug": "social-and-human-service-assistants",
+    "title": "Social and human service assistants",
+    "exposure": 2,
+    "rationale": "Split between digital administrative work and physical home visits to support vulnerable clients."
+  },
+  {
+    "slug": "social-workers",
+    "title": "Social workers",
+    "exposure": 1,
+    "rationale": "Navigate complex family environments, provide crisis intervention, and build trust. Robots cannot replicate this."
+  },
+  {
+    "slug": "sociologists",
+    "title": "Sociologists",
+    "exposure": 0,
+    "rationale": "Involves research design, data analysis, and writing—predominantly digital. Fieldwork requires human social intelligence."
+  },
+  {
+    "slug": "software-developers-quality-assurance-analysts-and-testers",
+    "title": "Software developers, quality assurance analysts, and testers",
+    "exposure": 0,
+    "rationale": "This occupation is performed entirely at a computer; all tasks involve writing, testing, and reviewing code in a digital environment. A humanoid robot provides zero physical advantage."
+  },
+  {
+    "slug": "solar-photovoltaic-installers",
+    "title": "Solar photovoltaic installers",
+    "exposure": 3,
+    "rationale": "Physical rooftop work in variable conditions. Safety risks and site diversity limit displacement."
+  },
+  {
+    "slug": "special-education-teachers",
+    "title": "Special education teachers",
+    "exposure": 1,
+    "rationale": "Requires highly individualized physical and emotional support for students with complex disabilities. Robots cannot replicate this."
+  },
+  {
+    "slug": "special-effects-artists-and-animators",
+    "title": "Special effects artists and animators",
+    "exposure": 0,
+    "rationale": "Animation and VFX work is performed entirely on computer workstations using specialized software. No physical manipulation of materials is required."
+  },
+  {
+    "slug": "speech-language-pathologists",
+    "title": "Speech-language pathologists",
+    "exposure": 1,
+    "rationale": "Requires real-time physical observation and manual techniques for swallowing therapy with personalized coaching."
+  },
+  {
+    "slug": "stationary-engineers-and-boiler-operators",
+    "title": "Stationary engineers and boiler operators",
+    "exposure": 4,
+    "rationale": "Structured mechanical plant environments with repetitive monitoring. Emergency response and confined space work require human expertise."
+  },
+  {
+    "slug": "substance-abuse-behavioral-disorder-and-mental-health-counselors",
+    "title": "Substance abuse, behavioral disorder, and mental health counselors",
+    "exposure": 0,
+    "rationale": "Relies entirely on human therapeutic presence, empathy, and trust. No physical tasks."
+  },
+  {
+    "slug": "surgical-assistants-and-technologists",
+    "title": "Surgical assistants and technologists",
+    "exposure": 3,
+    "rationale": "Work in structured operating rooms with defined tasks. Dynamic surgical complications and fine motor demands limit displacement."
+  },
+  {
+    "slug": "survey-researchers",
+    "title": "Survey researchers",
+    "exposure": 1,
+    "rationale": "Survey research is primarily digital—questionnaire design, data collection, and statistical analysis. Occasional fieldwork involves social intelligence robots cannot replicate."
+  },
+  {
+    "slug": "surveying-and-mapping-technicians",
+    "title": "Surveying and mapping technicians",
+    "exposure": 3,
+    "rationale": "Operate equipment in outdoor environments. Outdoor terrain variability limits robot applicability."
+  },
+  {
+    "slug": "surveyors",
+    "title": "Surveyors",
+    "exposure": 2,
+    "rationale": "Navigating diverse outdoor terrain for precise measurements. Variable field conditions and legal certification limit displacement."
+  },
+  {
+    "slug": "tax-examiners-and-collectors-and-revenue-agents",
+    "title": "Tax examiners and collectors, and revenue agents",
+    "exposure": 1,
+    "rationale": "Bulk of work involves reviewing digital records. Field investigations require professional judgment rather than physical labor."
+  },
+  {
+    "slug": "taxi-drivers-shuttle-drivers-and-chauffeurs",
+    "title": "Taxi drivers, shuttle drivers, and chauffeurs",
+    "exposure": 5,
+    "rationale": "Driving is increasingly automatable, but assisting passengers with disabilities and handling luggage remain challenging."
+  },
+  {
+    "slug": "teacher-assistants",
+    "title": "Teacher assistants",
+    "exposure": 2,
+    "rationale": "Provide physical support to students requiring human empathy and behavioral response."
+  },
+  {
+    "slug": "technical-writers",
+    "title": "Technical writers",
+    "exposure": 0,
+    "rationale": "Technical writing involves researching, drafting, and editing documentation entirely on computers. No physical tasks required."
+  },
+  {
+    "slug": "telecommunications-technicians",
+    "title": "Telecommunications technicians",
+    "exposure": 3,
+    "rationale": "Climb towers and splice cables in diverse outdoor environments. Height work and confined spaces challenge robots."
+  },
+  {
+    "slug": "tellers",
+    "title": "Tellers",
+    "exposure": 4,
+    "rationale": "Tellers work at fixed counter stations performing standardized transactions—a structured environment. Customer service aspects complicate full displacement."
+  },
+  {
+    "slug": "top-executives",
+    "title": "Top executives",
+    "exposure": 0,
+    "rationale": "Executive leadership involves strategic decision-making, organizational oversight, and interpersonal negotiation. No physical tasks."
+  },
+  {
+    "slug": "tour-and-travel-guides",
+    "title": "Tour and travel guides",
+    "exposure": 2,
+    "rationale": "Lead groups through diverse environments requiring real-time adaptation. Robots cannot provide authentic cultural interpretation."
+  },
+  {
+    "slug": "training-and-development-managers",
+    "title": "Training and development managers",
+    "exposure": 0,
+    "rationale": "Involves overseeing learning programs through digital tools. No physical tasks."
+  },
+  {
+    "slug": "training-and-development-specialists",
+    "title": "Training and development specialists",
+    "exposure": 1,
+    "rationale": "Training involves designing curricula and delivering instruction through digital platforms. Live delivery requires human adaptive communication."
+  },
+  {
+    "slug": "transportation-storage-and-distribution-managers",
+    "title": "Transportation, storage, and distribution managers",
+    "exposure": 2,
+    "rationale": "Involves overseeing logistics facilities and safety compliance. Physical presence is for oversight, not manual labor."
+  },
+  {
+    "slug": "travel-agents",
+    "title": "Travel agents",
+    "exposure": 0,
+    "rationale": "Travel agents work entirely on computers researching destinations, comparing prices, and booking itineraries. No physical interaction required."
+  },
+  {
+    "slug": "tutors",
+    "title": "Tutors",
+    "exposure": 1,
+    "rationale": "Tutoring is primarily cognitive and interpersonal. No physical labor is involved in the core function."
+  },
+  {
+    "slug": "umpires-referees-and-other-sports-officials",
+    "title": "Umpires, referees, and other sports officials",
+    "exposure": 1,
+    "rationale": "Manage dynamic game environments. Computer vision can automate calls but managing conduct requires human authority."
+  },
+  {
+    "slug": "urban-and-regional-planners",
+    "title": "Urban and regional planners",
+    "exposure": 1,
+    "rationale": "Involves GIS analysis and community engagement. Site visits require professional observation, not physical labor."
+  },
+  {
+    "slug": "veterinarians",
+    "title": "Veterinarians",
+    "exposure": 2,
+    "rationale": "Physical examination and surgery on animals with highly variable anatomy and temperament."
+  },
+  {
+    "slug": "veterinary-assistants-and-laboratory-animal-caretakers",
+    "title": "Veterinary assistants and laboratory animal caretakers",
+    "exposure": 2,
+    "rationale": "Handle diverse animal species with unpredictable behavior. Animal welfare and safety implications limit displacement."
+  },
+  {
+    "slug": "veterinary-technologists-and-technicians",
+    "title": "Veterinary technologists and technicians",
+    "exposure": 3,
+    "rationale": "Physical clinical tasks with unpredictable animal behavior creating significant challenges for robots."
+  },
+  {
+    "slug": "waiters-and-waitresses",
+    "title": "Waiters and waitresses",
+    "exposure": 4,
+    "rationale": "Structured restaurant environments with defined service procedures. Social hospitality limits displacement."
+  },
+  {
+    "slug": "water-and-wastewater-treatment-plant-and-system-operators",
+    "title": "Water and wastewater treatment plant and system operators",
+    "exposure": 4,
+    "rationale": "Structured industrial environments with repetitive monitoring tasks. Emergency response requires human expertise."
+  },
+  {
+    "slug": "water-transportation-workers",
+    "title": "Water transportation workers",
+    "exposure": 2,
+    "rationale": "Dynamic, unpredictable maritime environments. Extreme variability and safety-critical nature create barriers."
+  },
+  {
+    "slug": "web-developers-and-digital-designers",
+    "title": "Web developers and digital designers",
+    "exposure": 0,
+    "rationale": "All tasks—writing HTML/CSS/JavaScript, designing layouts—are performed at a computer. This occupation is entirely within the digital domain."
+  },
+  {
+    "slug": "welders-cutters-solderers-and-brazers",
+    "title": "Welders, cutters, solderers, and brazers",
+    "exposure": 5,
+    "rationale": "Industrial welding in structured settings involves repetitive standardized joints. Robotic welding already exists in factories."
+  },
+  {
+    "slug": "wholesale-and-manufacturing-sales-representatives",
+    "title": "Wholesale and manufacturing sales representatives",
+    "exposure": 1,
+    "rationale": "Sales work is primarily through digital communication. Product demonstrations involve social persuasion rather than physical labor."
+  },
+  {
+    "slug": "wind-turbine-technicians",
+    "title": "Wind turbine technicians",
+    "exposure": 2,
+    "rationale": "Extreme height work, confined nacelle environments, and variable weather create major physical challenges."
+  },
+  {
+    "slug": "woodworkers",
+    "title": "Woodworkers",
+    "exposure": 4,
+    "rationale": "Repetitive tasks in structured workshops. CNC-driven work is already automated. Custom work has lower robot applicability."
+  },
+  {
+    "slug": "writers-and-authors",
+    "title": "Writers and authors",
+    "exposure": 0,
+    "rationale": "Writing and authorship is a purely cognitive and digital occupation. The automation threat comes entirely from language model AI, not robotics."
+  },
+  {
+    "slug": "zoologists-and-wildlife-biologists",
+    "title": "Zoologists and wildlife biologists",
+    "exposure": 2,
+    "rationale": "Physically demanding fieldwork in unpredictable natural settings. Interactions with wild animals require adaptive responses."
+  }
+]
